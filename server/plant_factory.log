@@ -1,0 +1,79 @@
+Wed, 03 Jan 2018 15:10:21 trade_server.py[line:21] INFO mysql connection success!!!
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingConnection._on_connection_error of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': False, 'arguments': None}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingConnection._on_connection_start of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 base_connection.py[line:179] INFO Connecting to ::1:5672
+Wed, 03 Jan 2018 15:10:21 callback.py[line:217] DEBUG Processing 0:Connection.Start
+Wed, 03 Jan 2018 15:10:21 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:21 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:21 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingConnection._on_connection_start of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 0}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:231] DEBUG Calling <bound method BlockingConnection._on_connection_start of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>> for "0:Connection.Start"
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingConnection._on_connection_tune of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:217] DEBUG Processing 0:Connection.Tune
+Wed, 03 Jan 2018 15:10:21 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:21 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:21 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingConnection._on_connection_tune of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 0}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:231] DEBUG Calling <bound method BlockingConnection._on_connection_tune of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>> for "0:Connection.Tune"
+Wed, 03 Jan 2018 15:10:21 connection.py[line:959] DEBUG Creating a HeartbeatChecker: 600
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingConnection._on_connection_open of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:217] DEBUG Processing 0:Connection.OpenOk
+Wed, 03 Jan 2018 15:10:21 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:21 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:21 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingConnection._on_connection_open of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 0}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:231] DEBUG Calling <bound method BlockingConnection._on_connection_open of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>> for "0:Connection.OpenOk"
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingConnection._on_connection_closed of <pika.adapters.blocking_connection.BlockingConnection object at 0x7f8c37ff33d0>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 blocking_connection.py[line:194] DEBUG Opening channel 1
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_close of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_getempty of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': False, 'arguments': None}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_cancel of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': False, 'arguments': None}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:217] DEBUG Processing 1:Channel.OpenOk
+Wed, 03 Jan 2018 15:10:21 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:21 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:21 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 0}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:231] DEBUG Calling <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>> for "1:Channel.OpenOk"
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': {'queue': 'pf_down'}, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:217] DEBUG Processing 1:Queue.DeclareOk
+Wed, 03 Jan 2018 15:10:21 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:21 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:21 callback.py[line:340] DEBUG Comparing {'queue': 'pf_down'} to {'queue': 'pf_down'}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': {'queue': 'pf_down'}, 'calls': 0}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:231] DEBUG Calling <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>> for "1:Queue.DeclareOk"
+Wed, 03 Jan 2018 15:10:21 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': {'consumer_tag': 'ctag1.e40901f4db624c719fc365ccc22d495b'}, 'calls': 1}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:217] DEBUG Processing 1:Basic.ConsumeOk
+Wed, 03 Jan 2018 15:10:21 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:21 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:21 callback.py[line:340] DEBUG Comparing {'consumer_tag': 'ctag1.e40901f4db624c719fc365ccc22d495b'} to {'consumer_tag': 'ctag1.e40901f4db624c719fc365ccc22d495b'}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>>, 'only': None, 'one_shot': True, 'arguments': {'consumer_tag': 'ctag1.e40901f4db624c719fc365ccc22d495b'}, 'calls': 0}
+Wed, 03 Jan 2018 15:10:21 callback.py[line:231] DEBUG Calling <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c455d2810>> for "1:Basic.ConsumeOk"
+Wed, 03 Jan 2018 15:10:22 channel.py[line:896] DEBUG Discarding frame <METHOD(['channel_number=1', 'frame_type=1', "method=<Basic.ConsumeOk(['consumer_tag=ctag1.e40901f4db624c719fc365ccc22d495b'])>"])>
+Wed, 03 Jan 2018 15:10:22 blocking_connection.py[line:194] DEBUG Opening channel 2
+Wed, 03 Jan 2018 15:10:22 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_close of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_getempty of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': False, 'arguments': None}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_cancel of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': False, 'arguments': None}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 1}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:217] DEBUG Processing 2:Channel.OpenOk
+Wed, 03 Jan 2018 15:10:22 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:22 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:22 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': True, 'arguments': None, 'calls': 0}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:231] DEBUG Calling <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>> for "2:Channel.OpenOk"
+Wed, 03 Jan 2018 15:10:22 callback.py[line:161] DEBUG Added: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': True, 'arguments': {'queue': 'pf_up'}, 'calls': 1}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:217] DEBUG Processing 2:Queue.DeclareOk
+Wed, 03 Jan 2018 15:10:22 callback.py[line:393] DEBUG Processing use of oneshot callback
+Wed, 03 Jan 2018 15:10:22 callback.py[line:395] DEBUG 0 registered uses left
+Wed, 03 Jan 2018 15:10:22 callback.py[line:340] DEBUG Comparing {'queue': 'pf_up'} to {'queue': 'pf_up'}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:261] DEBUG Removing callback #0: {'callback': <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>>, 'only': None, 'one_shot': True, 'arguments': {'queue': 'pf_up'}, 'calls': 0}
+Wed, 03 Jan 2018 15:10:22 callback.py[line:231] DEBUG Calling <bound method BlockingChannel._on_rpc_complete of <pika.adapters.blocking_connection.BlockingChannel object at 0x7f8c37ff3550>> for "2:Queue.DeclareOk"
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:301] INFO      connection 183.230.108.110
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:122] INFO Received data: {"cycle_state": "0", "layer_ID": "6", "fun_ID": "14", "collector_ID": "231110023"}
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:251] INFO processing fun_ID = 14
+Wed, 03 Jan 2018 15:10:28 trade_server.py[line:315] INFO update v_function_14 set water_onoff_state = 0 where collector_id = 231110023 and layer_num = 6
+Wed, 03 Jan 2018 15:10:28 trade_server.py[line:319] INFO update database success!!! FunctionID=14
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:261] INFO fun_ID = 14 has been finished
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:286] INFO Sent data_len: 33  data: {"layer_ID": "6", "fun_ID": "14"}
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:286] INFO Sent data_len: 33  data: {"layer_ID": "6", "fun_ID": "14"}
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:286] INFO Sent data_len: 33  data: {"layer_ID": "6", "fun_ID": "14"}
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:286] INFO Sent data_len: 33  data: {"layer_ID": "6", "fun_ID": "14"}
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:286] INFO Sent data_len: 33  data: {"layer_ID": "6", "fun_ID": "14"}
+Wed, 03 Jan 2018 15:10:28 main_server.py[line:286] INFO Sent data_len: 33  data: {"layer_ID": "6", "fun_ID": "14"}
