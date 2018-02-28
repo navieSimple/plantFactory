@@ -1,0 +1,133 @@
+Mon, 04 Sep 2017 01:20:20 socket_client.py[line:20] INFO Starting socket: TCP...
+Mon, 04 Sep 2017 01:20:20 socket_client.py[line:33] INFO Connect to server @ 182.61.18.112:50011...
+Mon, 04 Sep 2017 01:20:20 socket_client.py[line:35] INFO Connection success...
+Mon, 04 Sep 2017 01:20:30 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:30 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:30 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:30 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:20:30 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:20:40 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:40 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:40 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:40 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:20:40 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:20:50 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:50 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:50 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:20:50 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:20:50 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:21:00 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:00 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:00 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:00 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:21:00 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:21:10 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:10 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:10 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:10 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:21:10 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:21:20 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:20 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:20 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:20 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:21:20 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:21:30 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:30 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:30 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:30 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:21:30 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:21:40 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:40 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:40 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:40 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:21:40 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:21:50 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:50 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:50 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:21:50 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:21:50 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:22:00 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:00 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:00 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:00 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:22:00 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:22:10 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:10 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:10 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:10 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:22:10 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:22:20 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:20 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:20 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:20 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:22:20 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:22:30 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:30 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:30 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:30 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:22:30 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:22:40 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:40 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:40 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:40 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:22:40 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:22:50 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:50 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:50 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:22:50 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:22:50 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:23:00 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:00 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:00 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:00 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:23:00 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:23:10 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:10 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:10 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:10 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:23:10 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:23:20 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:20 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:20 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:20 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:23:20 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:23:30 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:30 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:30 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:30 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:23:30 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:23:40 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:40 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:40 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:40 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:23:40 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:23:50 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:50 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:50 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:23:50 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:23:50 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:24:00 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:00 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:00 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:00 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:24:00 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:24:10 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:10 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:10 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:10 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:24:10 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:24:20 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:20 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:20 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:20 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:24:20 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:24:30 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:30 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:30 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:30 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:24:30 trade_client.py[line:72] INFO recieved the heart jump!
+Mon, 04 Sep 2017 01:24:40 trade_client.py[line:137] INFO {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:40 socket_client.py[line:49] INFO Sent data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:40 socket_client.py[line:41] INFO Received data: {"fun_ID": "00", "collector_ID": "AABBBCCCC"}
+Mon, 04 Sep 2017 01:24:40 trade_client.py[line:172] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'AABBBCCCC'}
+Mon, 04 Sep 2017 01:24:40 trade_client.py[line:72] INFO recieved the heart jump!

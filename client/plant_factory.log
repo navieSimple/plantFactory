@@ -1,0 +1,220 @@
+Fri, 27 Oct 2017 16:17:07 main_collector.py[line:38] INFO client program start.........
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:20] INFO Starting socket: TCP...
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:27] INFO None
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:30] INFO 1
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:52] INFO Connect to server @ 182.61.18.112:50011...
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:54] INFO Connection success...
+Fri, 27 Oct 2017 16:17:07 main_collector.py[line:53] INFO start ini_LED_waterdump
+Fri, 27 Oct 2017 16:17:07 main_collector.py[line:55] INFO end ini_LED_waterdump
+Fri, 27 Oct 2017 16:17:07 main_collector.py[line:60] INFO start get_shelfID_send
+Fri, 27 Oct 2017 16:17:07 trade_client.py[line:58] INFO global_list.collector_ID = 231110002
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:68] INFO Sent data: {"fun_ID": "01", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:07 socket_client.py[line:60] INFO Received data: {"layer_ID": {"layer_num_1": "2", "layer_num_2": "3", "layer_num_3": "4", "layer_num_4": "3"}, "fun_ID": "01", "shelf_ID": {"shelf_ID_3": "11", "shelf_ID_2": "10", "shelf_ID_1": "9", "shelf_ID_4": "12"}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:07 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'layer_ID': {u'layer_num_1': u'2', u'layer_num_2': u'3', u'layer_num_3': u'4', u'layer_num_4': u'3'}, u'fun_ID': u'01', u'shelf_ID': {u'shelf_ID_3': u'11', u'shelf_ID_2': u'10', u'shelf_ID_1': u'9', u'shelf_ID_4': u'12'}, u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:17:07 trade_client.py[line:120] INFO {u'9': u'2', u'10': u'3', u'12': u'3', u'11': u'4'}
+Fri, 27 Oct 2017 16:17:07 trade_client.py[line:130] INFO {'9': '1', '10': '2', '12': '4', '11': '3'}
+Fri, 27 Oct 2017 16:17:07 trade_client.py[line:152] INFO [[1, 1, 0, 730, 1930], [1, 1, 1, 730, 1930], [1, 2, 0, 730, 1930], [1, 2, 1, 730, 1930], [2, 1, 0, 730, 1930], [2, 1, 1, 730, 1930], [2, 2, 0, 730, 1930], [2, 2, 1, 730, 1930], [2, 3, 0, 730, 1930], [2, 3, 1, 730, 1930], [4, 1, 0, 730, 1930], [4, 1, 1, 730, 1930], [4, 2, 0, 730, 1930], [4, 2, 1, 730, 1930], [4, 3, 0, 730, 1930], [4, 3, 1, 730, 1930], [3, 1, 0, 730, 1930], [3, 1, 1, 730, 1930], [3, 2, 0, 730, 1930], [3, 2, 1, 730, 1930], [3, 3, 0, 730, 1930], [3, 3, 1, 730, 1930], [3, 4, 0, 730, 1930], [3, 4, 1, 730, 1930]]
+Fri, 27 Oct 2017 16:17:07 trade_client.py[line:167] INFO [[1, 1, 0, 1], [1, 2, 0, 1], [2, 1, 0, 1], [2, 2, 0, 1], [2, 3, 0, 1], [4, 1, 0, 1], [4, 2, 0, 1], [4, 3, 0, 1], [3, 1, 0, 1], [3, 2, 0, 1], [3, 3, 0, 1], [3, 4, 0, 1]]
+Fri, 27 Oct 2017 16:17:10 main_collector.py[line:63] INFO end get_shelfID_send
+Fri, 27 Oct 2017 16:17:10 main_collector.py[line:66] INFO start update_data_send
+Fri, 27 Oct 2017 16:17:12 trade_client.py[line:101] INFO {'layer_ID_2': {'ultraviolet_status': '1', 'light_status': '0'}, 'fun_ID': '02', 'shelf_ID': u'9', 'layer_ID_1': {'ultraviolet_status': '1', 'light_status': '0'}, 'collector_ID': '231110002'}
+Fri, 27 Oct 2017 16:17:12 socket_client.py[line:68] INFO Sent data: {"layer_ID_2": {"ultraviolet_status": "1", "light_status": "0"}, "fun_ID": "02", "shelf_ID": "9", "layer_ID_1": {"ultraviolet_status": "1", "light_status": "0"}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:12 socket_client.py[line:60] INFO Received data: {"layer_ID_2": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "fun_ID": "02", "shelf_ID": "9", "layer_ID_1": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:12 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'shelf_ID': u'9', u'fun_ID': u'02', u'layer_ID_2': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'collector_ID': u'231110002', u'layer_ID_1': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}}
+Fri, 27 Oct 2017 16:17:12 trade_client.py[line:208] INFO 1,1,730,730,730,730 
+Fri, 27 Oct 2017 16:17:12 trade_client.py[line:208] INFO 1,2,730,730,730,730 
+Fri, 27 Oct 2017 16:17:13 trade_client.py[line:101] INFO {'shelf_ID': u'10', 'fun_ID': '02', 'layer_ID_2': {'ultraviolet_status': '1', 'light_status': '0'}, 'layer_ID_3': {'ultraviolet_status': '1', 'light_status': '0'}, 'layer_ID_1': {'ultraviolet_status': '1', 'light_status': '0'}, 'collector_ID': '231110002'}
+Fri, 27 Oct 2017 16:17:13 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "10", "fun_ID": "02", "layer_ID_2": {"ultraviolet_status": "1", "light_status": "0"}, "layer_ID_3": {"ultraviolet_status": "1", "light_status": "0"}, "layer_ID_1": {"ultraviolet_status": "1", "light_status": "0"}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:13 socket_client.py[line:60] INFO Received data: {"shelf_ID": "10", "fun_ID": "02", "layer_ID_2": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "layer_ID_3": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "layer_ID_1": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:13 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'shelf_ID': u'10', u'fun_ID': u'02', u'layer_ID_2': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'layer_ID_3': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'layer_ID_1': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:17:13 trade_client.py[line:208] INFO 2,1,730,730,730,730 
+Fri, 27 Oct 2017 16:17:13 trade_client.py[line:208] INFO 2,2,730,730,730,730 
+Fri, 27 Oct 2017 16:17:13 trade_client.py[line:208] INFO 2,3,730,730,730,730 
+Fri, 27 Oct 2017 16:17:14 trade_client.py[line:101] INFO {'shelf_ID': u'12', 'fun_ID': '02', 'layer_ID_2': {'ultraviolet_status': '1', 'light_status': '0'}, 'layer_ID_3': {'ultraviolet_status': '1', 'light_status': '0'}, 'layer_ID_1': {'ultraviolet_status': '1', 'light_status': '0'}, 'collector_ID': '231110002'}
+Fri, 27 Oct 2017 16:17:14 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "12", "fun_ID": "02", "layer_ID_2": {"ultraviolet_status": "1", "light_status": "0"}, "layer_ID_3": {"ultraviolet_status": "1", "light_status": "0"}, "layer_ID_1": {"ultraviolet_status": "1", "light_status": "0"}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:14 socket_client.py[line:60] INFO Received data: {"shelf_ID": "12", "fun_ID": "02", "layer_ID_2": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "layer_ID_3": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "layer_ID_1": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:14 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'shelf_ID': u'12', u'fun_ID': u'02', u'layer_ID_2': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'layer_ID_3': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'layer_ID_1': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:17:14 trade_client.py[line:208] INFO 4,1,730,730,730,730 
+Fri, 27 Oct 2017 16:17:14 trade_client.py[line:208] INFO 4,2,730,730,730,730 
+Fri, 27 Oct 2017 16:17:14 trade_client.py[line:208] INFO 4,3,730,730,730,730 
+Fri, 27 Oct 2017 16:17:15 trade_client.py[line:101] INFO {'shelf_ID': u'11', 'layer_ID_4': {'ultraviolet_status': '1', 'light_status': '0'}, 'fun_ID': '02', 'layer_ID_2': {'ultraviolet_status': '1', 'light_status': '0'}, 'layer_ID_3': {'ultraviolet_status': '1', 'light_status': '0'}, 'layer_ID_1': {'ultraviolet_status': '1', 'light_status': '0'}, 'collector_ID': '231110002'}
+Fri, 27 Oct 2017 16:17:15 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "11", "layer_ID_4": {"ultraviolet_status": "1", "light_status": "0"}, "fun_ID": "02", "layer_ID_2": {"ultraviolet_status": "1", "light_status": "0"}, "layer_ID_3": {"ultraviolet_status": "1", "light_status": "0"}, "layer_ID_1": {"ultraviolet_status": "1", "light_status": "0"}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:15 socket_client.py[line:60] INFO Received data: {"shelf_ID": "11", "layer_ID_4": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "fun_ID": "02", "layer_ID_2": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "layer_ID_3": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "layer_ID_1": {"light": {"start_time": "730", "end_time": "730"}, "ultraviolet": {"start_time": "730", "end_time": "730"}}, "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:15 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'shelf_ID': u'11', u'layer_ID_4': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'fun_ID': u'02', u'layer_ID_2': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'layer_ID_3': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'layer_ID_1': {u'light': {u'start_time': u'730', u'end_time': u'730'}, u'ultraviolet': {u'start_time': u'730', u'end_time': u'730'}}, u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:17:15 trade_client.py[line:208] INFO 3,1,730,730,730,730 
+Fri, 27 Oct 2017 16:17:15 trade_client.py[line:208] INFO 3,2,730,730,730,730 
+Fri, 27 Oct 2017 16:17:15 trade_client.py[line:208] INFO 3,3,730,730,730,730 
+Fri, 27 Oct 2017 16:17:15 trade_client.py[line:208] INFO 3,4,730,730,730,730 
+Fri, 27 Oct 2017 16:17:16 main_collector.py[line:68] INFO end update_data_send
+Fri, 27 Oct 2017 16:17:16 main_collector.py[line:71] INFO start heart_jump
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:295] INFO 0
+Fri, 27 Oct 2017 16:17:16 socket_client.py[line:68] INFO Sent data: {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:296] INFO {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:16 main_collector.py[line:73] INFO end heart_jump
+Fri, 27 Oct 2017 16:17:16 main_collector.py[line:79] INFO start waterdump
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:32] INFO enter open water dump!!!!!!!!!!!
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:33] INFO global_list.waterdump_flag = 0
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:36] INFO open water dump start............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:22] INFO in the waterdump switch 1............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:23] INFO the len of global_list.shelf_ID = 4
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:26] INFO shelf layer = 1
+Fri, 27 Oct 2017 16:17:16 LEDandWaterpump.py[line:77] INFO shelf_num = 1,f= 1
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:26] INFO shelf layer = 2
+Fri, 27 Oct 2017 16:17:16 LEDandWaterpump.py[line:77] INFO shelf_num = 2,f= 1
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:26] INFO shelf layer = 3
+Fri, 27 Oct 2017 16:17:16 LEDandWaterpump.py[line:77] INFO shelf_num = 3,f= 1
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:26] INFO shelf layer = 4
+Fri, 27 Oct 2017 16:17:16 LEDandWaterpump.py[line:77] INFO shelf_num = 4,f= 1
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:40] INFO open water dump end............
+Fri, 27 Oct 2017 16:17:16 main_collector.py[line:81] INFO end waterdump
+Fri, 27 Oct 2017 16:17:16 socket_client.py[line:60] INFO Received data: {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:17:16 trade_client.py[line:176] INFO recieved the heart jump!
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:295] INFO 0
+Fri, 27 Oct 2017 16:19:56 socket_client.py[line:68] INFO Sent data: {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:296] INFO {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:32] INFO enter open water dump!!!!!!!!!!!
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:33] INFO global_list.waterdump_flag = 1
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:42] INFO close water dump start............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:22] INFO in the waterdump switch 1............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:23] INFO the len of global_list.shelf_ID = 4
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:26] INFO shelf layer = 1
+Fri, 27 Oct 2017 16:19:56 LEDandWaterpump.py[line:77] INFO shelf_num = 1,f= 0
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:26] INFO shelf layer = 2
+Fri, 27 Oct 2017 16:19:56 LEDandWaterpump.py[line:77] INFO shelf_num = 2,f= 0
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:26] INFO shelf layer = 3
+Fri, 27 Oct 2017 16:19:56 LEDandWaterpump.py[line:77] INFO shelf_num = 3,f= 0
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:26] INFO shelf layer = 4
+Fri, 27 Oct 2017 16:19:56 LEDandWaterpump.py[line:77] INFO shelf_num = 4,f= 0
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:46] INFO close water dump end............
+Fri, 27 Oct 2017 16:19:56 socket_client.py[line:60] INFO Received data: {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:176] INFO recieved the heart jump!
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:320] INFO (17, 21.65, 67.39)
+Fri, 27 Oct 2017 16:19:56 socket_client.py[line:68] INFO Sent data: {"indoor_temp": "21.65", "fun_ID": "05", "indoor_humi": "67.39", "co2": "17", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:19:56 socket_client.py[line:60] INFO Received data: {"fun_ID": "05"}
+Fri, 27 Oct 2017 16:19:56 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'05'}
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:295] INFO 0
+Fri, 27 Oct 2017 16:20:06 socket_client.py[line:68] INFO Sent data: {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:296] INFO {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:365] INFO 1
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:06 socket_client.py[line:60] INFO Received data: {"fun_ID": "00", "collector_ID": "231110002"}
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'00', u'collector_ID': u'231110002'}
+Fri, 27 Oct 2017 16:20:06 trade_client.py[line:176] INFO recieved the heart jump!
+Fri, 27 Oct 2017 16:20:06 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:07 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "9", "water_temp": "-123", "layer_ID": "1", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "58"}
+Fri, 27 Oct 2017 16:20:07 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:07 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:07 trade_client.py[line:365] INFO 1
+Fri, 27 Oct 2017 16:20:07 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:07 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:07 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:08 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:08 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "9", "water_temp": "-123", "layer_ID": "2", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "58"}
+Fri, 27 Oct 2017 16:20:08 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:08 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:09 trade_client.py[line:365] INFO 2
+Fri, 27 Oct 2017 16:20:09 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:09 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:09 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:09 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:10 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "10", "water_temp": "-123", "layer_ID": "1", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "72"}
+Fri, 27 Oct 2017 16:20:10 trade_client.py[line:365] INFO 2
+Fri, 27 Oct 2017 16:20:10 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:10 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:13 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:13 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:13 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:13 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:14 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:14 trade_client.py[line:365] INFO 2
+Fri, 27 Oct 2017 16:20:15 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "10", "water_temp": "-123", "layer_ID": "2", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "72"}
+Fri, 27 Oct 2017 16:20:15 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:15 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:16 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:17 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:17 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:18 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "10", "water_temp": "-123", "layer_ID": "3", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "72"}
+Fri, 27 Oct 2017 16:20:18 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:19 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:19 trade_client.py[line:365] INFO 4
+Fri, 27 Oct 2017 16:20:19 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:19 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:20 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:20 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:21 sensors.py[line:176] INFO It's the problem of Light_intensity sensor
+Fri, 27 Oct 2017 16:20:21 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:21 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "12", "water_temp": "-123", "layer_ID": "1", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "-123"}
+Fri, 27 Oct 2017 16:20:21 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:21 trade_client.py[line:365] INFO 4
+Fri, 27 Oct 2017 16:20:22 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:22 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:22 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:22 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:23 sensors.py[line:176] INFO It's the problem of Light_intensity sensor
+Fri, 27 Oct 2017 16:20:24 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "12", "water_temp": "-123", "layer_ID": "2", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "-123"}
+Fri, 27 Oct 2017 16:20:24 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:24 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:24 trade_client.py[line:365] INFO 4
+Fri, 27 Oct 2017 16:20:24 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:25 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:25 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:25 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:26 sensors.py[line:176] INFO It's the problem of Light_intensity sensor
+Fri, 27 Oct 2017 16:20:26 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:26 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "12", "water_temp": "-123", "layer_ID": "3", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "-123"}
+Fri, 27 Oct 2017 16:20:26 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:29 trade_client.py[line:365] INFO 3
+Fri, 27 Oct 2017 16:20:30 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:31 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:31 trade_client.py[line:381] INFO Currently water level is OK
+Fri, 27 Oct 2017 16:20:33 sensors.py[line:113] INFO It's the problem of Water_Tem sensor
+Fri, 27 Oct 2017 16:20:34 trade_client.py[line:32] INFO enter open water dump!!!!!!!!!!!
+Fri, 27 Oct 2017 16:20:34 trade_client.py[line:33] INFO global_list.waterdump_flag = 0
+Fri, 27 Oct 2017 16:20:35 trade_client.py[line:36] INFO open water dump start............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:22] INFO in the waterdump switch 1............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:23] INFO the len of global_list.shelf_ID = 4
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:26] INFO shelf layer = 1
+Fri, 27 Oct 2017 16:20:36 LEDandWaterpump.py[line:77] INFO shelf_num = 1,f= 1
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:26] INFO shelf layer = 2
+Fri, 27 Oct 2017 16:20:36 LEDandWaterpump.py[line:77] INFO shelf_num = 2,f= 1
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:26] INFO shelf layer = 3
+Fri, 27 Oct 2017 16:20:36 LEDandWaterpump.py[line:77] INFO shelf_num = 3,f= 1
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:25] INFO in the waterdump switch 2............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:26] INFO shelf layer = 4
+Fri, 27 Oct 2017 16:20:36 LEDandWaterpump.py[line:77] INFO shelf_num = 4,f= 1
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:28] INFO in the waterdump switch 3............
+Fri, 27 Oct 2017 16:20:36 trade_client.py[line:40] INFO open water dump end............
+Fri, 27 Oct 2017 16:20:37 sensors.py[line:176] INFO It's the problem of Light_intensity sensor
+Fri, 27 Oct 2017 16:20:38 socket_client.py[line:68] INFO Sent data: {"shelf_ID": "11", "water_temp": "-123", "layer_ID": "1", "fun_ID": "06", "collector_ID": "231110002", "water_level": "1", "illumination": "-123"}
+Fri, 27 Oct 2017 16:20:38 socket_client.py[line:60] INFO Received data: {"fun_ID": "06"}
+Fri, 27 Oct 2017 16:20:39 trade_client.py[line:365] INFO 3
+Fri, 27 Oct 2017 16:20:39 trade_client.py[line:366] INFO 0
+Fri, 27 Oct 2017 16:20:39 trade_client.py[line:438] INFO Recieve data in the thread_trade: {u'fun_ID': u'06'}
+Fri, 27 Oct 2017 16:20:43 trade_client.py[line:367] INFO 0
+Fri, 27 Oct 2017 16:20:46 trade_client.py[line:381] INFO Currently water level is OK
